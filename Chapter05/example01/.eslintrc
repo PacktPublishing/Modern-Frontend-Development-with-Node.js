@@ -1,0 +1,14 @@
+{
+    "root": true,
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2020
+    },
+    "plugins": [
+      "prefer-arrow"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "prefer-arrow/prefer-arrow-functions": ["error", {}]
+    }
+}

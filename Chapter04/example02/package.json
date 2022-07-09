@@ -1,0 +1,13 @@
+{
+  "name": "example02",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-flow": "^7.17.12",
+    "flow-bin": "^0.180.1"
+  }
+}
