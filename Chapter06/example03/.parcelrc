@@ -1,0 +1,6 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.{mp3,mp4}": ["@parcel/transformer-raw"]
+  }
+}
