@@ -1,0 +1,16 @@
+{
+  "name": "example04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.25.1",
+    "playwright": "^1.25.1"
+  }
+}

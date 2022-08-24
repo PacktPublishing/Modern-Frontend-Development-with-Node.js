@@ -1,18 +1,16 @@
 {
-  "name": "example02",
+  "name": "example03",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "ava"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.18.13",
-    "@babel/preset-env": "^7.18.10",
-    "@babel/register": "^7.18.9",
-    "mocha": "^10.0.0"
+    "ava": "^4.3.1"
   }
 }

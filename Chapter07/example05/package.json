@@ -1,18 +1,15 @@
 {
-  "name": "example02",
+  "name": "example05",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.18.13",
-    "@babel/preset-env": "^7.18.10",
-    "@babel/register": "^7.18.9",
-    "mocha": "^10.0.0"
+    "cypress": "^10.6.0"
   }
 }
