@@ -1,0 +1,9 @@
+{
+  "name": "@foo/tool",
+  "version": "1.0.0",
+  "description": "A simple tool greeting the user.",
+  "bin": {
+    "hello": "lib/hello.js"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "lib-test-florian-rappl",
+  "version": "1.0.0",
+  "description": "Test library",
+  "author": "Florian Rappl",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": {
+        "require": "./lib/index.min.js",
+        "default": "./dist/index.min.js"
+      },
+      "default": {
+        "require": "./lib/index.js",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "scripts": {
+    "build-cjs-node": "esbuild src/*.js --platform=node --outdir=lib --format=cjs",
+    "build-cjs-browser": "esbuild src/*.js --platform=node --outdir=lib --bundle --format=cjs --minify --entry-names=[name].min",
+    "build-cjs": "npm run build-cjs-node && npm run build-cjs-browser",
+    "build-esm-node": "esbuild src/*.js --platform=node --outdir=dist --format=esm",
+    "build-esm-browser": "esbuild src/*.js --platform=node --outdir=dist --bundle --format=esm --minify --entry-names=[name].min",
+    "build-esm": "npm run build-esm-node && npm run build-esm-browser",
+    "build": "npm run build-cjs && npm run build-esm"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.0"
+  }
+}

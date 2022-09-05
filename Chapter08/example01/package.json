@@ -1,0 +1,15 @@
+{
+  "name": "lib-test-florian-rappl",
+  "version": "1.0.0",
+  "description": "Test library",
+  "author": "Florian Rappl",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "esbuild src/*.js --platform=node --outdir=lib --format=cjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.0"
+  }
+}
