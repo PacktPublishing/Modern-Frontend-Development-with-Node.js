@@ -1,0 +1,21 @@
+{
+  "name": "example04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:debug": "asc assembly/index.ts --target debug",
+    "asbuild:release": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:debug && npm run asbuild:release",
+    "build": "asc assembly/index.ts -o echo.wasm --use abort=wasi_abort --debug",
+    "start": "node --experimental-wasi-unstable-preview1 --no-warnings app.mjs Florian"
+  },
+  "keywords": [],
+  "author": "Florian Rappl",
+  "license": "MIT",
+  "devDependencies": {
+    "assemblyscript": "^0.20.18",
+    "as-wasi": "^0.4.6"
+  }
+}
