@@ -1,2 +1,2 @@
-# Node.js-for-Frontend-Developers
-Node.js for Frontend Developers, published by Packt
+# Modern Frontend Development with Node.js
+Modern Frontend Development with Node.js, published by Packt
