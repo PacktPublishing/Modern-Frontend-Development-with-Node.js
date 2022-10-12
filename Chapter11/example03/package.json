@@ -1,0 +1,17 @@
+{
+  "name": "example03",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "bun bun src/script.tsx && ./node_modules.bun > dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "video.js": "^7.20.1"
+  }
+}

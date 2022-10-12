@@ -1,0 +1,6 @@
+{
+    "imports": {
+        "axios": "npm:axios",
+        "fs/promises": "https://deno.land/std@0.159.0/node/fs/promises.ts"
+    }
+}
