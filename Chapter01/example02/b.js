@@ -1,0 +1,1 @@
+exports.myValue = 42;

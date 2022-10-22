@@ -1,0 +1,49 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/node': ^16.11.9
+  react: ^17.0.2
+  typescript: ^4.5.2
+
+dependencies:
+  react: 17.0.2
+
+devDependencies:
+  '@types/node': 16.11.68
+  typescript: 4.8.4
+
+packages:
+
+  /@types/node/16.11.68:
+    resolution: {integrity: sha512-JkRpuVz3xCNCWaeQ5EHLR/6woMbHZz/jZ7Kmc63AkU+1HxnoUugzSWMck7dsR4DvNYX8jp9wTi9K7WvnxOIQZQ==}
+    dev: true
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /object-assign/4.1.1:
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /react/17.0.2:
+    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /typescript/4.8.4:
+    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
