@@ -69,7 +69,3 @@ is a solution architect working on distributed web applications for digital tran
 As the lead architect he helped to create outstanding web applications for many industry leading companies. He regularly gives lectures on software design patterns and web development. Florian won multiple prizes for his work over the years and is recognized as a Microsoft MVP for development technologies.
 
 He started his career in software engineering before studying physics and helping to build an energy-efficient supercomputer. Florian currently lives in Munich, Germany, with his wife and two daughters.
-### Download a free PDF
-
- <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/9781804618295">https://packt.link/free-ebook/9781804618295 </a> </p>
