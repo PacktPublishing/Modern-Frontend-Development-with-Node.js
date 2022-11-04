@@ -5,6 +5,7 @@ const { htmlPlugin } = require("@craftamap/esbuild-plugin-html");
 serve(
   {
     port: 1234,
+    servedir: 'dist',
   },
   {
     entryPoints: ["./src/script.tsx"],
@@ -14,6 +15,7 @@ serve(
     minify: true,
     metafile: true,
     splitting: true,
+    logLevel: 'info',
     loader: {
       ".jpg": "file",
       ".webp": "file",

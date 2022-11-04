@@ -1,11 +1,10 @@
 {
-  "name": "example03",
+  "name": "examples",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist && mkdir dist",
-    "bundle": "bun bun src/script.tsx",
-    "build": "npm run clean && npm run bundle && ./node_modules.bun > dist/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
