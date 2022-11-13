@@ -64,7 +64,7 @@ Please visit the following link to check the CiA videos:
 
 *none*
 
-### Related products
+## Related products
 
 * Supercharging Node.js Applications with Sequelize [[Packt]](https://www.packtpub.com/product/supercharging-nodejs-applications-with-sequelize/9781801811552) [[Amazon]](https://www.amazon.com/Supercharging-Node-js-Applications-Sequelize-high-quality/dp/1801811555)
 
