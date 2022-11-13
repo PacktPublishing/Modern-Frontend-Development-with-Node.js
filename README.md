@@ -1,6 +1,6 @@
 # Modern Frontend Development with Node.js
 
-<a href="https://www.packtpub.com/product/modern-frontend-development-with-nodejs/9781804618295"><img src="https://static.packt-cdn.com/products/9781804618295/cover/smaller" alt="The Art of Micro Frontends" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/modern-frontend-development-with-nodejs/9781804618295"><img src="https://static.packt-cdn.com/products/9781804618295/cover/smaller" alt="Modern Frontend Development with Node.js" height="256px" align="right"></a>
 
 This is the code repository for [Modern Frontend Development with Node.js](https://www.packtpub.com/product/modern-frontend-development-with-nodejs/9781804618295), published by Packt.
 
@@ -16,9 +16,12 @@ In the final part of the book, you'll see how easy it is to publish your code in
 
 This book covers the following exciting features:
 
-* Full learning material on Node.js incl. some internals with a focus on frontend development
-* Overview of the whole npm frontend ecosystem - tooling, usage, and dev process
-* Learn about crucial development concepts such as mono repos or publishing libraries
+* Practically develop a frontend application with Node.js based tools and libraries
+* Use bundlers such as Webpack or Vite to create efficient web applications
+* Leverage test runners like Jest to ship reliable software
+* Organize code repositories to work in close collaboration with other developers and teams
+* Learn to publish npm packages to make code reuse much simpler
+* Improve code quality by enabling consistent formatting using Prettier
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1804618292) today!
 
@@ -32,13 +35,14 @@ This repository contains the sample codes for each chapter. You can clone it lik
 git clone https://github.com/PacktPublishing/Modern-Frontend-Development-with-Node.js.git
 ```
 
-## Available Samples
-
-tbd
-
 ## Using the Code
 
 Each directory containing a sample repository has a README file with instructions on what is necessary and how to run the code.
+
+**Following is what you need for this book:**
+This book is for junior and intermediate frontend web developers who are looking to leverage the Node.js ecosystem for building frontend solutions. The book requires beginner-level knowledge of JavaScript, HTML, and CSS. Some experience in using a standard shell (sh) will be beneficial.
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-11).
 
 ### Software and Hardware List
 
@@ -52,13 +56,21 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Code in Action
 
-Click on the following link to see the Code in Action:
+Please visit the following link to check the CiA videos:
 
-[YouTube](https://www.youtube.com/playlist?list=tbd)
+[YouTube](http://bit.ly/3EgcKwM)
 
 ## Errata
 
 *none*
+
+### Related products
+
+* Supercharging Node.js Applications with Sequelize [[Packt]](https://www.packtpub.com/product/supercharging-nodejs-applications-with-sequelize/9781801811552) [[Amazon]](https://www.amazon.com/Supercharging-Node-js-Applications-Sequelize-high-quality/dp/1801811555)
+
+* Full-Stack React, TypeScript, and Node [[Packt]](https://www.packtpub.com/product/full-stack-react-typescript-and-node/9781839219931?_ga=2.93999965.1577877788.1668155314-1676364594.1662627481) [[Amazon]](https://www.amazon.com/Full-Stack-React-TypeScript-Node-applications/dp/1839219939/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
+
+
 
 ## Get to Know the Author
 
@@ -69,3 +81,7 @@ is a solution architect working on distributed web applications for digital tran
 As the lead architect he helped to create outstanding web applications for many industry leading companies. He regularly gives lectures on software design patterns and web development. Florian won multiple prizes for his work over the years and is recognized as a Microsoft MVP for development technologies.
 
 He started his career in software engineering before studying physics and helping to build an energy-efficient supercomputer. Florian currently lives in Munich, Germany, with his wife and two daughters.
+
+
+## Other books by the author
+* [The Art of Micro Frontends](https://www.packtpub.com/product/the-art-of-micro-frontends/9781800563568)
