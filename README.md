@@ -85,3 +85,8 @@ He started his career in software engineering before studying physics and helpin
 
 ## Other books by the author
 * [The Art of Micro Frontends](https://www.packtpub.com/product/the-art-of-micro-frontends/9781800563568)
+
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781804618295">https://packt.link/free-ebook/9781804618295 </a> </p>
